@@ -1,0 +1,6 @@
+framework module Pods_AirflexExtension_Tests {
+  umbrella header "Pods-AirflexExtension_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "AirflexExtension",
+  "version": "0.1.0",
+  "summary": "A short description of AirflexExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Tuan Dinh/AirflexExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuan Dinh": "leonacky@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Tuan Dinh/AirflexExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AirflexExtension/Classes/**/*"
+}

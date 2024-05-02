@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		07B2C1C7222202655B625AC9 /* Pods-AirflexExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirflexExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-AirflexExtension_Example/Pods-AirflexExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
-		200F5790F6B7AA1C7275EE18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		200F5790F6B7AA1C7275EE18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2260AEA66D3C170706E3FFFE /* Pods_AirflexExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirflexExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4A0511B9B791326EAB76AE /* Pods-AirflexExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirflexExtension_Tests.release.xcconfig"; path = "Target Support Files/Pods-AirflexExtension_Tests/Pods-AirflexExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AirflexExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirflexExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* AirflexExtension_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirflexExtension_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AAD9BEA7FF765BC4F3416016 /* AirflexExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AirflexExtension.podspec; path = ../AirflexExtension.podspec; sourceTree = "<group>"; };
+		AAD9BEA7FF765BC4F3416016 /* AirflexExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AirflexExtension.podspec; path = ../AirflexExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC16D6EC794A934B34D7489A /* Pods-AirflexExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirflexExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AirflexExtension_Tests/Pods-AirflexExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE0F28296C57EF4897ED4B17 /* Pods-AirflexExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirflexExtension_Example.debug.xcconfig"; path = "Target Support Files/Pods-AirflexExtension_Example/Pods-AirflexExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DBCADA4D7DDF27C3169E379D /* Pods_AirflexExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirflexExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2484A0D6199452251FA2388 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F2484A0D6199452251FA2388 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				AC16D6EC794A934B34D7489A /* Pods-AirflexExtension_Tests.debug.xcconfig */,
 				5A4A0511B9B791326EAB76AE /* Pods-AirflexExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

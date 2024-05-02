@@ -1,0 +1,6 @@
+framework module AirflexExtension {
+  umbrella header "AirflexExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
