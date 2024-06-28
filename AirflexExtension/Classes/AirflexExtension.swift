@@ -1,5 +1,5 @@
 import MobileCoreServices
-import UserNotifications
+//import UserNotifications
 
 public class AirflexExtension {
     public class func didReceiveNotificationExtensionRequest (_ request: UNNotificationRequest, with attemptContent: UNMutableNotificationContent, withContentHandler contentHandler: ((UNNotificationContent) -> Void)?) {
